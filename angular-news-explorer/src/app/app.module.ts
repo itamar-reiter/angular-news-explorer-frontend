@@ -7,6 +7,8 @@ import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { ButtonComponent } from './components/button/button.component';
 import { BigButtonComponent } from './components/big-button/big-button.component';
+import { MonthsListComponent } from './components/months-list/months-list.component';
+import { MonthItemComponent } from './components/month-item/month-item.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { BigButtonComponent } from './components/big-button/big-button.component
     HeaderComponent,
     FooterComponent,
     ButtonComponent,
-    BigButtonComponent
+    BigButtonComponent,
+    MonthsListComponent,
+    MonthItemComponent
   ],
   imports: [
     BrowserModule,
